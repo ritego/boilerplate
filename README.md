@@ -5,9 +5,8 @@ This is a simple boilerplate for running code snippets and samples.
 
 ## Usage
 ```bash
-$ clone github.com/ritego/boilerplate [name]
+$ git clone https://github.com/ritego/boilerplate [name]
 $ cd [name]
-$ go mod init github.com/ritego/[name]
 $ go run main.go
 ```
 
