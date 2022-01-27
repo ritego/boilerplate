@@ -4,3 +4,23 @@ ENVIRONMENT: "development"
 SERVER_PORT: :7777
 SERVER_WRITE_TIMEOUT: 15000000000 # 15 secs
 SERVER_READ_TIMEOUT: 15000000000 # 15 secs
+
+DB_HOST: localhost
+DB_USER: isaiahiroko
+DB_PASSWORD: fullife
+DB_NAME: wallet_interest
+DB_PORT: 3306
+DB_SSL_MODE: disable
+DB_TIMEZONE: Africa/Lagos
+
+WALLET_DB_HOST: localhost
+WALLET_DB_USER: isaiahiroko
+WALLET_DB_PASSWORD: fullife
+WALLET_DB_NAME: wallet
+WALLET_DB_PORT: 3306
+WALLET_DB_SSL_MODE: disable
+WALLET_DB_TIMEZONE: Africa/Lagos
+
+WALLET_BASE_URL: https://kolo-wallet-v7.aellapp.com
+CACHE_DRIVER: "disk"
+TAX_RATE: 0.75
